@@ -8,7 +8,7 @@ public class PrimaClasseNew {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Benvenuti al corso1");
 		String nome=sc.nextLine();
-		System.out.println("Ciao il tuo è " + nome);
+		System.out.println("Ciao il tuo nome è " + nome);
 		sc.close();
 		
 		Bike bike1=new Bike();

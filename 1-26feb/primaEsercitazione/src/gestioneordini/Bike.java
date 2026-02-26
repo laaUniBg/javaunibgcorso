@@ -3,7 +3,11 @@ package gestioneordini;
 public class Bike {
 	private int gear;
 	private int cadence;
-	private int boh;
+	private int speed;
 	
-	Bike() {}
+	Bike() {
+		gear = 0;
+		cadence = 0;
+		speed = 0;
+	}
 }
