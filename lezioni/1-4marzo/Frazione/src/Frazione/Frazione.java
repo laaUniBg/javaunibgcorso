@@ -1,12 +1,20 @@
 package Frazione;
 
 public class Frazione {
-	public static void main(String[] args) {
-		// non sono riuscito a ricopiare in tempo
-	}
-	Frazione(int x, int y){};
+	private int numeratore;
+	private int denominatore;
 	
-	void stampa() {
+	public Frazione(int num, int den) {
+		numeratore=num;
+		denominatore=den;
+	}
+	
+	public static void main(String[] args) {
 		
+	}
+	
+	public void stampa() {
+		Frazione pippo=new Frazione(5,2);
+		System.out.println(numeratore / denominatore);
 	}
 }
