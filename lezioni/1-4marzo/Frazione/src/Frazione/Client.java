@@ -1,6 +1,7 @@
 package Frazione;
 
 public class Client {
+	// main non si può fare private
 	public static void main(String[] args) {
 		Frazione f=new Frazione(2,3);
 		int a=0;
@@ -11,6 +12,6 @@ public class Client {
 		p.eta=-1000;
 		
 		Punto punto=new Punto(6,7);
-		punto.x=5;
+		// punto.x=5;
 	}
 }
