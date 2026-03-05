@@ -1,5 +1,12 @@
 package esercitazione2;
 
+// Stampino
+// lista interi in cui gli elementi non sono ripetuti
+// inserire
+// togliere
+// stampare
+// usare come attributo un array
+
 public class LettoreMP3 {
 	private int numeroSerie;
 //	private int[] numeroSerieUsati=new int[10];
