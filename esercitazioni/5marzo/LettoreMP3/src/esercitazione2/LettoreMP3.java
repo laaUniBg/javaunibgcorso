@@ -1,12 +1,20 @@
 package esercitazione2;
 
 public class LettoreMP3 {
-	// final significa che 'numeroSerie' posso inizializziarlo e basta una sola volta
-	private final int numeroSerie;
+	private int numeroSerie;
 	
 	public LettoreMP3(int numeroSerie) {
+		if(numeroSerie <0) {
+			throw new IllegalArgumentException("Non puoi " + "creare un " + "MP3 con seriale");
+		}
+		this.setNumeroSerie(numeroSerie);
+	}
+	
+	public void setNumeroSerie(int numeroSerie) {
+		if(numeroSerie <0) {
+			throw new IllegalArgumentException("Non puoi " + "creare un " + "MP3 con seriale");
+		}
 		this.numeroSerie=numeroSerie;
-//		this.setNumeroSerie(numeroSerie);
 	}
 	
 	public int getNumeroSerie() {
