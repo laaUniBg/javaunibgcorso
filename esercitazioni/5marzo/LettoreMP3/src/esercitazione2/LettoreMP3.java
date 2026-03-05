@@ -4,7 +4,8 @@ public class LettoreMP3 {
 	private int numeroSerie;
 	
 	public LettoreMP3(int numeroSerie) {
-		this.numeroSerie=numeroSerie;
+//		this.numeroSerie=numeroSerie;
+		this.setNumeroSerie(numeroSerie);
 	}
 	
 	public void setNumeroSerie(int numeroSerie) {
