@@ -7,7 +7,7 @@ public class LettoreMP3 {
 		if(numeroSerie <0) {
 			throw new IllegalArgumentException("Non puoi " + "creare un " + "MP3 con seriale");
 		}
-		this.setNumeroSerie(numeroSerie);
+		this.numeroSerie=numeroSerie;
 	}
 	
 	public void setNumeroSerie(int numeroSerie) {
