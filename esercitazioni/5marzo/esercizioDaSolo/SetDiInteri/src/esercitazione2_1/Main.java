@@ -2,9 +2,18 @@ package esercitazione2_1;
 
 public class Main {
 	public static void main(String[] args) {
-		SetInteri thisSet = new SetInteri();
-		thisSet.myPush(10);
-		thisSet.myPush(20);
-		thisSet.myPush(90);
+		SetInteri ins = new SetInteri(10);
+		ins.inserisci(3);
+		ins.stampa();
+		System.out.println("------");
+		ins.inserisci(7);
+		ins.stampa();
+		System.out.println("------");
+		ins.inserisci(9);
+		ins.stampa();
+		System.out.println("------");
+		ins.rimuovi(3);
+		ins.stampa();
+		
 	}
 };
