@@ -5,5 +5,6 @@ public class Main {
 		SetInteri thisSet = new SetInteri();
 		thisSet.myPush(10);
 		thisSet.myPush(20);
+		thisSet.myPush(90);
 	}
 };
